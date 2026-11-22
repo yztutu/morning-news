@@ -30,34 +30,34 @@
 
 ## 💻 科技动态
 
-1. [MiniMax 利用最新内部模型破解多个密码学前沿方案，刷新国际挑战赛纪录](https://www.ithome.com/1/030/711.htm)
-2. [苹果首款折叠屏手机 iPhone Duo 开启百亿补贴，电商平台优惠千元到手 14499 元起](https://www.ithome.com/1/030/710.htm)
-3. [Nomadic 无人机停高压电线上就能充电，每架可负责监测 25 公里电网线路](https://www.ithome.com/1/030/708.htm)
-4. [雷诺集团 CEO 福兰反思职业生涯最大失误：当年未能指出在华销量目标不切实际](https://www.ithome.com/1/030/707.htm)
-5. [韩国最大电力公司韩电再曝大规模数据泄露，152 万人信息外泄](https://www.ithome.com/1/030/706.htm)
-6. [日本零售业接连爆发数据泄露事件，塔唱片约 1020 万账户信息遭窃](https://www.ithome.com/1/030/704.htm)
-7. [微星推出“PRO MP272L”27 英寸显示器：1080P 100Hz，599 元](https://www.ithome.com/1/030/703.htm)
-8. [B站就“AI 大肥鱼”智能体账号泛滥发布调查问卷，征集治理意见](https://www.ithome.com/1/030/702.htm)
+1. [Oracle：已确保履行与 OpenAI 合同全部所需资金](https://www.ithome.com/1/030/715.htm)
+2. [R 星：《GTA 6》亲密戏份制作难度高，随主角关系动态变化](https://www.ithome.com/1/030/714.htm)
+3. [签约后也能涨价：消息称 AI 服务器厂商交付前提价，涨幅最高达 45%](https://www.ithome.com/1/030/713.htm)
+4. [MiniMax 利用最新内部模型破解多个密码学前沿方案，刷新国际挑战赛纪录](https://www.ithome.com/1/030/711.htm)
+5. [苹果首款折叠屏手机 iPhone Duo 开启百亿补贴，电商平台优惠千元到手 14499 元起](https://www.ithome.com/1/030/710.htm)
+6. [Nomadic 无人机停高压电线上就能充电，每架可负责监测 25 公里电网线路](https://www.ithome.com/1/030/708.htm)
+7. [雷诺集团 CEO 福兰反思职业生涯最大失误：当年未能指出在华销量目标不切实际](https://www.ithome.com/1/030/707.htm)
+8. [韩国最大电力公司韩电再曝大规模数据泄露，152 万人信息外泄](https://www.ithome.com/1/030/706.htm)
 
 <sub>来源：IT之家</sub>
 
 ## 🔥 GitHub 今日热门
 
-1. **[elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)** — ⭐ 16,993（今日 +1,721） · Python
+1. **[elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)** — ⭐ 17,032（今日 +1,721） · Python
    A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-repo…
-2. **[obra/superpowers](https://github.com/obra/superpowers)** — ⭐ 323,872（今日 +785） · Shell
+2. **[obra/superpowers](https://github.com/obra/superpowers)** — ⭐ 323,886（今日 +785） · Shell
    An agentic skills framework software development methodology that works.
-3. **[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)** — ⭐ 62,489（今日 +687） · Python
+3. **[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)** — ⭐ 62,506（今日 +687） · Python
    "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/
-4. **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** — ⭐ 68,436（今日 +473） · Python
+4. **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** — ⭐ 68,452（今日 +473） · Python
    🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.
-5. **[cursor/plugins](https://github.com/cursor/plugins)** — ⭐ 18,291（今日 +301） · TypeScript
+5. **[cursor/plugins](https://github.com/cursor/plugins)** — ⭐ 18,302（今日 +301） · TypeScript
    Cursor plugin specification and official plugins
-6. **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** — ⭐ 206,651（今日 +910） · TypeScript
+6. **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** — ⭐ 206,674（今日 +910） · TypeScript
    Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.
-7. **[nginx/nginx](https://github.com/nginx/nginx)** — ⭐ 32,816（今日 +168） · C
+7. **[nginx/nginx](https://github.com/nginx/nginx)** — ⭐ 32,823（今日 +168） · C
    The official NGINX Open Source repository.
-8. **[openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)** — ⭐ 12,030（今日 +155） · C++
+8. **[openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)** — ⭐ 12,034（今日 +155） · C++
    OpenVINO™ is an open source toolkit for optimizing and deploying AI inference
 
 <sub>来源：GitHub Trending</sub>
