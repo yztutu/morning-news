@@ -1,0 +1,45 @@
+name: schedule
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 23 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      TZ: Asia/Shanghai
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+
+      - name: Install python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install pillow and CJK fonts
+        run: |
+          pip install pillow
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk
+
+      - name: Generate and push
+        run: |
+          git config --local user.email "78296391+yztutu@users.noreply.github.com"
+          git config --local user.name "yztutu"
+          python3 generate.py
+          git add -A
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "每日早报 $(date +%F)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo "no changes"
+          fi
