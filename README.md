@@ -30,34 +30,34 @@
 
 ## 💻 科技动态
 
-1. [索尼：《GTA6》成 PlayStation 史上规模最大游戏首发，刷新同时在线玩家纪录](https://www.ithome.com/1/031/278.htm)
-2. [三星确认第三方数据泄露：约 15 万条电视观看记录曝光](https://www.ithome.com/1/031/277.htm)
-3. [华为余承东：鸿蒙终端设备数突破一个亿，越过规模临界点迈入新阶段](https://www.ithome.com/1/031/276.htm)
-4. [首次中外联合飞行：神舟二十四号瞄准明日 8:18 发射，乘组为汤洪波、武毅、穆罕默德齐尚阿里](https://www.ithome.com/1/031/274.htm)
-5. [消息称三星 2029 年存储产能已近售罄，部分客户开抢 2031 年产能](https://www.ithome.com/1/031/273.htm)
-6. [消息称苹果 iPhone 18e 背面配 28*35mm 凸起模组：仍是单摄，外观向高端款靠拢](https://www.ithome.com/1/031/272.htm)
-7. [OpenAI 宣布 GPT-6.2 Sol 登陆 ChatGPT，而 GPT-5.6 Sol、Terra 将于 12 月 23 日退役](https://www.ithome.com/1/031/271.htm)
-8. [美国俄勒冈州、弗吉尼亚州起诉 SpaceX，指控 Grok AI 生成儿童性虐待图像](https://www.ithome.com/1/031/270.htm)
+1. [一剂后悔药：X 平台测试“撤销刷新”功能](https://www.ithome.com/1/031/292.htm)
+2. [AI 拓展“嗅觉”技能：Ainos 斩获 900 万美元追加订单，电子鼻走进芯片工厂“闻”异常](https://www.ithome.com/1/031/290.htm)
+3. [特朗普自夸：我和英伟达董事会谈过，是我促成了“黄仁勋回归”](https://www.ithome.com/1/031/289.htm)
+4. [美国多州总检察长要求在 Character.AI 破产出售中保障儿童等的数据安全](https://www.ithome.com/1/031/288.htm)
+5. [张志远担任神舟二十三号返回指令长，将与黎家盈及巴基斯坦航天员一同返回](https://www.ithome.com/1/031/287.htm)
+6. [【IT之家图赏】1500nits 第四代 WOLED、6.4mm 超薄机身，TCL 32X3B OLED+ 显示器图赏](https://www.ithome.com/1/031/286.htm)
+7. [空间站首次获得毫米级深紫外晶体：神舟二十三号在轨近半年，生命科学、材料、医学与储能四项阶段性成果公布](https://www.ithome.com/1/031/285.htm)
+8. [微软 Teams 将引入 AI 防诈骗功能，识别通话中的钓鱼迹象](https://www.ithome.com/1/031/284.htm)
 
 <sub>来源：IT之家</sub>
 
 ## 🔥 GitHub 今日热门
 
-1. **[elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)** — ⭐ 19,822（今日 +2,029） · Python
+1. **[elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)** — ⭐ 19,863（今日 +2,029） · Python
    A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-repo…
-2. **[obra/superpowers](https://github.com/obra/superpowers)** — ⭐ 325,091（今日 +840） · Shell
+2. **[obra/superpowers](https://github.com/obra/superpowers)** — ⭐ 325,127（今日 +840） · Shell
    An agentic skills framework software development methodology that works.
-3. **[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)** — ⭐ 63,677（今日 +790） · Python
+3. **[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)** — ⭐ 63,721（今日 +790） · Python
    "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/
-4. **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** — ⭐ 69,479（今日 +828） · Python
+4. **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** — ⭐ 69,511（今日 +828） · Python
    🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.
-5. **[cursor/plugins](https://github.com/cursor/plugins)** — ⭐ 18,818（今日 +397） · TypeScript
+5. **[cursor/plugins](https://github.com/cursor/plugins)** — ⭐ 18,832（今日 +397） · TypeScript
    Cursor plugin specification and official plugins
-6. **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** — ⭐ 207,951（今日 +924） · TypeScript
+6. **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** — ⭐ 207,977（今日 +924） · TypeScript
    Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.
-7. **[nginx/nginx](https://github.com/nginx/nginx)** — ⭐ 33,060（今日 +174） · C
+7. **[nginx/nginx](https://github.com/nginx/nginx)** — ⭐ 33,067（今日 +174） · C
    The official NGINX Open Source repository.
-8. **[openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)** — ⭐ 12,287（今日 +184） · C++
+8. **[openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)** — ⭐ 12,295（今日 +184） · C++
    OpenVINO™ is an open source toolkit for optimizing and deploying AI inference
 
 <sub>来源：GitHub Trending</sub>
