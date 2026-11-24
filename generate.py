@@ -3,7 +3,7 @@
 
 每天运行一次：抓取三类真实数据（国内要闻 / 科技动态 / GitHub 今日热门），
 生成 editions/YYYY-MM-DD.md，更新 README.md（最新一期 + 历史索引），
-并绘制 poster.png 早报图。
+并绘制 poster.png 早报图；海报归档到 posters/ 并据此刷新网站首页往期网格。
 
 原则：每一类数据独立容错；抓不到就如实在当期标注缺失，绝不编造。
 仅使用 Python 标准库，方便在任何机器上定时运行。
@@ -13,6 +13,7 @@
 import json
 import os
 import re
+import shutil
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -20,6 +21,7 @@ from datetime import datetime, timedelta, timezone
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 EDITIONS_DIR = os.path.join(ROOT, "editions")
+POSTERS_DIR = os.path.join(ROOT, "posters")
 CST = timezone(timedelta(hours=8))
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"}
@@ -294,6 +296,109 @@ def make_poster(date_str, weekday, domestic, tech, trending, tip):
     return os.path.join(ROOT, "poster.png")
 
 
+
+# ---------------- 海报归档 + 网站首页 ----------------
+
+INDEX_TEMPLATE = '''<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>每日科技早报 · 每天一张图看完天下事</title>
+<meta name="description" content="每日科技早报：国内要闻、科技动态、热门话题，一张长图看完，每天早上自动更新。">
+<meta name="color-scheme" content="light dark">
+<style>
+:root{--bg:#f6f7f9;--card:#ffffff;--text:#1f2328;--sub:#8a8f98;--line:#eef0f2;--chip:#f0f1f3;--accent:#2563eb}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--text:#e6edf3;--sub:#8b949e;--line:#21262d;--chip:#21262d;--accent:#58a6ff}}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text)}
+header{background:linear-gradient(135deg,#2563eb,#7c3aed);color:#fff;padding:26px 16px 18px;text-align:center}
+header h1{margin:0 0 6px;font-size:25px}
+header p{margin:2px 0;opacity:.93;font-size:13px}
+main{max-width:680px;margin:0 auto;padding:14px 12px 30px}
+.card{background:var(--card);border-radius:14px;padding:14px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.card h2{font-size:17px;margin:2px 0 10px;display:flex;align-items:baseline;gap:8px}
+.tag{color:#fff;background:var(--accent);font-size:11.5px;font-weight:600;border-radius:999px;padding:2px 9px}
+.sub{color:var(--sub);font-size:12px;font-weight:400}
+.hero-img{display:block;width:100%;border-radius:10px;border:1px solid var(--line)}
+.hint{color:var(--sub);font-size:12.5px;text-align:center;margin:10px 0 2px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+.past{background:var(--card);border-radius:14px;padding:10px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.past img{display:block;width:100%;aspect-ratio:1080/2224;object-fit:cover;object-position:top;border-radius:8px;border:1px solid var(--line)}
+.past .d{font-size:14.5px;font-weight:600;margin:9px 2px 2px}
+.past .w{color:var(--sub);font-size:12px;margin:0 2px 8px}
+.past .links{display:flex;gap:8px}
+.past .links a{flex:1;text-align:center;text-decoration:none;font-size:13px;color:var(--text);background:var(--chip);border-radius:999px;padding:6px 0}
+.past .links a.main{background:var(--accent);color:#fff;font-weight:600}
+footer{text-align:center;color:var(--sub);font-size:12px;padding:16px 12px 28px;line-height:1.7}
+footer a{color:var(--sub)}
+</style>
+</head>
+<body>
+<header>
+<h1>🗞️ 每日科技早报</h1>
+<p>国内要闻 · 科技动态 · 热门话题，一张图看完</p>
+<p>每天早上 07:47 自动生成更新</p>
+</header>
+<main>
+<div class="card">
+<h2><span class="tag">今日</span> 最新一期 <span class="sub">点图片看大图</span></h2>
+<a href="poster.png"><img class="hero-img" src="poster.png" alt="今日科技早报长图"></a>
+<p class="hint">海报每天自动换新，收藏本页即可每天看最新一期</p>
+</div>
+
+<h2 style="font-size:17px;margin:22px 2px 4px">📚 往期早报</h2>
+<div class="grid">
+<!--PAST_CARDS-->
+</div>
+</main>
+<footer>内容来自公开新闻来源的每日汇总，仅做整理展示。<br>
+由脚本自动维护，每天更新 · <a href="https://github.com/yztutu/morning-news">GitHub 仓库</a></footer>
+</body>
+</html>
+'''
+
+
+def archive_poster(date_str):
+    """把今日海报复制一份到 posters/YYYY-MM-DD.png 存档。"""
+    os.makedirs(POSTERS_DIR, exist_ok=True)
+    shutil.copyfile(os.path.join(ROOT, "poster.png"),
+                    os.path.join(POSTERS_DIR, f"{date_str}.png"))
+
+
+def update_index(today_str):
+    """按 posters/ 里的归档图（日期倒序）重新生成 index.html。
+
+    页面其余部分（头图、今日海报卡、样式、页脚）与手写版保持一致，
+    只有往期网格的卡片由程序按目录自动生成，今后每天跑完自动多一期。
+    """
+    dates = sorted((f[:-4] for f in os.listdir(POSTERS_DIR)
+                    if f.endswith(".png")
+                    and re.fullmatch(r"\d{4}-\d{2}-\d{2}", f[:-4])),
+                   reverse=True)
+    first_date = dates[-1] if dates else None
+    cards = []
+    for d in dates:
+        label = WEEKDAYS[datetime.strptime(d, "%Y-%m-%d").date().weekday()]
+        if d == today_str:
+            label += " · 今日"
+        elif d == first_date:
+            label += " · 创刊号"
+        links = f'<a class="main" href="posters/{d}.png">看大图</a>'
+        if os.path.exists(os.path.join(EDITIONS_DIR, f"{d}.md")):
+            links += (f'<a href="https://github.com/yztutu/morning-news'
+                      f'/blob/main/editions/{d}.md">文字版</a>')
+        cards.append(
+            f'<div class="past">\n'
+            f'<a href="posters/{d}.png"><img src="posters/{d}.png" '
+            f'alt="{d} 早报" loading="lazy"></a>\n'
+            f'<p class="d">{d}</p><p class="w">{label}</p>\n'
+            f'<div class="links">{links}</div>\n'
+            f'</div>')
+    page = INDEX_TEMPLATE.replace("<!--PAST_CARDS-->", "\n".join(cards))
+    with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as fh:
+        fh.write(page)
+
 # ---------------- 主流程 ----------------
 
 def main():
@@ -339,6 +444,14 @@ def main():
         report["poster"] = "ok"
     except Exception as e:
         report["poster"] = f"failed: {e}"
+
+    if report["poster"] == "ok":
+        try:
+            archive_poster(date_str)
+            update_index(date_str)
+            report["archive"] = "ok"
+        except Exception as e:
+            report["archive"] = f"failed: {e}"
 
     report["edition"] = path
     print(json.dumps(report, ensure_ascii=False, indent=2))
