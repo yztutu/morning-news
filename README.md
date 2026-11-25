@@ -6,70 +6,57 @@
 
 ---
 
-# 每日科技早报 · 2026-11-25 星期三
+# 每日科技早报 · 2026-11-26 星期四
 
 ## 📰 国内要闻
 
-1. 神舟二十四号飞船 11 月 25 日 8 时 18 分发射；巴基斯坦航天员将随神舟二十三号飞船返回
-2. 国内油价 26 日 24 时或迎来二连跌：92 号汽油有望重回 7 元时代，加满一箱油或能少花 17 元
-3. 央行长短 “组合拳” 11 月 25 日落地：8000 亿元 MLF + 5000 亿元逆回购
-4. 教育部拟出新规：教材价值导向有问题将立即停用，质量不高或更新不及时也将被淘汰
-5. 广州楼市 “卖旧买新” 新政策：扩大范围至六个区，并延长补贴期限
-6. 四川修订消费者权益保护条例，鼓励实体店也能 “无理由退货”
-7. 国产可口可乐不再标生产日期，客服回应：新国标允许保质期 6 个月以上可只标到期日
-8. 我国牵头制定 78 项人工智能国际标准，涉及数据治理、人机交互等
-9. 厦航拟购买 50 架波音 737-8，波音时隔九年再获中国大规模订单
-10. 菲律宾对中国公民 14 天免签入境政策延长一年，中使馆提醒：免签仅适用于旅游、商务目的
-11. 国际足联确认：2031 年女足世界杯将由美国、墨西哥、哥斯达黎加和牙买加联合举办，首次扩军至 48 支球队
-12. 越南将建高铁，总投资超 670 亿美元，法韩越联合体中标前期咨询合同
-13. 韩国加码高考作弊举报悬赏，提供线索者最高可获 5 亿韩元
-14. 消息称伊朗法院要求美国向伊支付 2900 亿美元赔偿金；特朗普此前称也要向伊朗索赔
-15. 俄战略轰炸机在日本海中立水域上空飞行约 10 小时，途中部分航段有外国战斗机伴飞
+（今日该栏目数据源暂时不可用，未能抓取，不是没有新闻。）
 
-<sub>来源：60 秒读懂世界</sub>
+<sub>来源：60 秒读懂世界（抓取失败）</sub>
 
 ## 💻 科技动态
 
-1. [截至 10 月底，我国累计发电装机容量同比增长 10.9%](https://www.ithome.com/1/032/096.htm)
-2. [越南南北高铁计划 2028 年启动：法韩越八家企业组成的联合体中标，总投资约 673 亿美元](https://www.ithome.com/1/032/095.htm)
-3. [星际荣耀双曲线三号火箭完成尾段极限载荷静力试验，为“首飞入轨 + 海上回收”铺路](https://www.ithome.com/1/032/093.htm)
-4. [小米新机通过 3C 认证：有望为 REDMI Note 18，配备 45W 充电 + 8888mAh 电池](https://www.ithome.com/1/032/092.htm)
-5. [《英雄联盟》全队语音开启测试，拳头合作主播 Tyler1 因辱骂队友被封 3 天](https://www.ithome.com/1/032/091.htm)
-6. [华为将在 ISSCC 2027 展示五层混合键合 HBM、逻辑芯片 3D 堆叠等先进技术](https://www.ithome.com/1/032/090.htm)
-7. [高盛：美国数据中心建设热潮有望持续至 2028 年，推高电力与天然气需求](https://www.ithome.com/1/032/089.htm)
-8. [《三体》电影版编剧陈宇：已集中写剧本两年多时间，自己和张艺谋压力都非常大](https://www.ithome.com/1/032/087.htm)
+1. [韩国推出考场反作弊系统 Detect AI：靠无线电波识别 AI 智能眼镜，12 月 9 日首秀](https://www.ithome.com/1/032/542.htm)
+2. [IT早报 1126：理想汽车宣布从一年一更调整为两年；特朗普称美政府入股英伟达犹未为晚；奥迪回应长春工厂利用率跌破 10%；首款自动驾驶摩托车广州亮相...](https://www.ithome.com/1/032/541.htm)
+3. [Valve 发布 SteamOS 0.5.11 正式候选版：升级 SteamVR 2.19.5，优化透视与串流](https://www.ithome.com/1/032/536.htm)
+4. [Counterpoint：华为 OSCAR 方案让无线频谱效率提升约 30%、能效提升 40%](https://www.ithome.com/1/032/532.htm)
+5. [美国纽约州暂停 AI 聊天玩具销售 5 年，违规厂商每日最高罚 15000 美元](https://www.ithome.com/1/032/540.htm)
+6. [准确率从 4% 暴涨至 97%！谷歌 DeepMind 给 AI 装上“化学外挂”，解锁质谱分析技能](https://www.ithome.com/1/032/535.htm)
+7. [CounterPoint 报告 2026Q3 拉丁美洲手机出货：三星稳坐第一、苹果最抗跌](https://www.ithome.com/1/032/539.htm)
+8. [密码管理工具 1Password 披露安全事件，部分客户数据外泄](https://www.ithome.com/1/032/538.htm)
 
 <sub>来源：IT之家</sub>
 
 ## 🔥 GitHub 今日热门
 
-1. **[elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)** — ⭐ 21,769（今日 +1,826） · Python
-   A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-repo…
-2. **[obra/superpowers](https://github.com/obra/superpowers)** — ⭐ 325,972（今日 +1,003） · Shell
+1. **[elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)** — ⭐ 22,958（今日 +1,644） · Python
+   A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-repo…
+2. **[obra/superpowers](https://github.com/obra/superpowers)** — ⭐ 326,594（今日 +902） · Shell
    An agentic skills framework software development methodology that works.
-3. **[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)** — ⭐ 65,030（今日 +1,074） · Python
+3. **[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)** — ⭐ 65,655（今日 +1,094） · Python
    "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/
-4. **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** — ⭐ 70,446（今日 +727） · Python
+4. **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** — ⭐ 70,925（今日 +828） · Python
    🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.
-5. **[cursor/plugins](https://github.com/cursor/plugins)** — ⭐ 19,308（今日 +360） · TypeScript
+5. **[cursor/plugins](https://github.com/cursor/plugins)** — ⭐ 19,522（今日 +408） · TypeScript
    Cursor plugin specification and official plugins
-6. **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** — ⭐ 209,144（今日 +991） · TypeScript
+6. **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** — ⭐ 210,006（今日 +1,131） · TypeScript
    Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.
-7. **[nginx/nginx](https://github.com/nginx/nginx)** — ⭐ 33,259（今日 +158） · C
+7. **[nginx/nginx](https://github.com/nginx/nginx)** — ⭐ 33,365（今日 +174） · C
    The official NGINX Open Source repository.
-8. **[openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)** — ⭐ 12,506（今日 +185） · C++
+8. **[openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)** — ⭐ 12,649（今日 +188） · C++
    OpenVINO™ is an open source toolkit for optimizing and deploying AI inference
 
 <sub>来源：GitHub Trending</sub>
 
 ---
 
-☀️ 不必时刻紧绷自己，张弛有度，养好状态，才能长久稳步前行。
+☀️ 新的一天，先看要闻，再写代码。
 
 ---
 
 ## 📚 历史存档
 
+- [2026-11-26](editions/2026-11-26.md)
 - [2026-11-25](editions/2026-11-25.md)
 - [2026-11-24](editions/2026-11-24.md)
 - [2026-11-23](editions/2026-11-23.md)
