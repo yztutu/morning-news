@@ -6,70 +6,71 @@
 
 ---
 
-# 每日科技早报 · 2026-11-26 星期四
+# 每日科技早报 · 2026-11-27 星期五
 
 ## 📰 国内要闻
 
-1. 新一轮冷空气来袭：北方多地降温显著，局地降温可达 10℃；南方将迎小阳春，部分地区最高温超 20℃，入冬或继续推迟
-2. 济滨高铁试运行：滨州到济南压缩至半小时，鲁北四地将告别无高铁历史
-3. 报告：2026 年成品油终端需求同比下降近 9%，未来 10 年国内汽柴油萎缩超四成
-4. 滴滴升级司机保障计划：明年将在 20 城推出暖心餐，补贴后最低 7.9 元
-5. 中疾控：我国艾滋病治疗成功比例达 95% 以上，我国艾滋处低流行水平
-6. 深圳女子穿楚服看楚展被误认穿 “和服”，馆方回应：立即开展培训
-7. 现货黄金跌破 3500 美元关口，为去年 9 月以来最低水平，较年内高点回撤近四成
-8. 1-10 月我国全行业对外直接投资 9411.3 亿元人民币，同比下降 8.9%
-9. 全球科技创新中心 100 强发布：中美上榜城市分别为 23 座和 26 座，占据全球一半；旧金山、纽约和北京居前三
-10. 欧盟发布混动汽车进口配额公告：中国获得 19.2 万辆配额居首，成最大进口源
-11. 美国贸易调查后提议对多国加征关税，包括欧盟、日本、韩国等
-12. 菲律宾参议员建议每人 “自愿” 捐款 17 万比索帮国家还债引众怒
-13. 韩国今年前九个月出生人口较去年同比增长 14.3%，创有记录以来最大增幅
-14. 美国 10 月 PCE 加速升温、GDP 增长大超预期，美媒称美联储 12 月加息 25 个基点的概率超九成
-15. 黄仁勋下周出席国会听证会，特朗普称必要时愿赦免黄仁勋，对美国政府入股英伟达持开放态度
+1. 6G 要来了！三部委：到 2030 年建成覆盖完善、性能领先的新一代通信网
+2. 国际科技创新中心指数 2026 发布：北京首次跃升全球第二，上海、粤港澳大湾区稳居前十
+3. 中国首例无线侵入式汉语脑机接口临床试验完成，让渐冻症患者 “开口说话”
+4. 数学家王虹获颁 2026 年度索菲・热尔曼奖，是第二位获得此奖的中国人
+5. 中疾控发布提示：全国流感活动整体处于中流行水平，南、北方省份流感病毒检测阳性率上升
+6. 北京对重点群体给予社保补贴，个人缴费享 25% 补贴
+7. 医保上线新功能：参保人可便捷查询个人用药情况、购药记录，范围覆盖全国所有定点医疗机构和定点零售药店
+8. 美团、淘宝闪购官宣：全面取消超时扣款处罚；货拉拉承诺将整体抽成比例降至约 9%
+9. 宁夏一彩票店中出 774.1 万元大奖 兑奖期已过半，至今无人领奖
+10. 雀巢澳版 “Alfamino” 1 + 段奶粉检出 “呕吐毒素”，品牌称涉事产品未进入中国大陆市场
+11. 美国批准马斯克旗下公司部署由最多 100 万颗卫星组成的星座，用于搭建太空数据中心
+12. 日本与印度将联合勘探月球南极：预计于 2028 年进行约 100 天的探测活动，印方开发着陆器，日方负责探测车
+13. 高市获日本第 55 届 “最佳着装奖”，获奖感言称：深感荣幸，收到获奖通知时感到十分惊讶
+14. 越南首座核电站或推迟至 2037 年后投运，电力短缺风险攀升
+15. 英国防部致信约 10 万战略预备役人员，要求做好应召准备，为冷战结束以来首次
 
 <sub>来源：60 秒读懂世界</sub>
 
 ## 💻 科技动态
 
-1. [曝苹果 iOS 28 将彻底翻新通知中心，有望解决广告困扰](https://www.ithome.com/1/032/740.htm)
-2. [马斯克质疑称多数机器人演示是摆拍，Figure 接招用 41 秒视频回击](https://www.ithome.com/1/032/739.htm)
-3. [HMD Rise 手机曝光：6.52 寸 720P LCD 屏、4GB 内存](https://www.ithome.com/1/032/738.htm)
-4. [向全美孩子每人赠送 2 股股票，SpaceX 和马斯克本人出手力挺特朗普儿童账户](https://www.ithome.com/1/032/737.htm)
-5. [暴力熊推出 Delid Heat Mate：低风险 CPU 开盖工具，需配合烤箱使用](https://www.ithome.com/1/032/736.htm)
-6. [把“活化石”扫出门，微软 Win11 未来将移除 Telnet 客户端](https://www.ithome.com/1/032/734.htm)
-7. [铠侠与英伟达合作，探索如何将 GPU 有效显存扩展至 PB 级](https://www.ithome.com/1/032/722.htm)
-8. [消息称泰坦军团规划 24.5" 1200Hz IPS、27" 三模 QD-OLED 显示器](https://www.ithome.com/1/032/720.htm)
+1. [苹果在部分地区上线 2026 黑五促销：购买指定产品可获 25~300 美元礼品卡，支持 iPhone、Mac、iPad 等](https://www.ithome.com/1/033/151.htm)
+2. [三星 Galaxy S27 Pro / Ultra 手机发布倒计时，内部零件已先“露脸”](https://www.ithome.com/1/033/150.htm)
+3. [5.4 升自吸混动大 V8 加持，福特全新 GT41 赛车亮相](https://www.ithome.com/1/033/149.htm)
+4. [谷歌 Play 新规：2027 年 3 月起，部分开发者须全球公开住址和电话](https://www.ithome.com/1/033/148.htm)
+5. [新研究表明 5G 能干扰卫星“看天气”，影响天气预报精度](https://www.ithome.com/1/033/147.htm)
+6. [小米 12S、MIX Fold 2、Redmi Note 12 Pro 等多款机型终止软件支持](https://www.ithome.com/1/033/146.htm)
+7. [IT早报 1127：全球首个乙肝功能性治愈新药在中国获批上市；华为星驰辅助驾驶发布；马斯克向全美孩子每人赠送 2 股 SpaceX 股票；微信上线 NFC 交通卡...](https://www.ithome.com/1/033/145.htm)
+8. [育碧：我们并没有在全公司范围强制推行 AI](https://www.ithome.com/1/033/144.htm)
 
 <sub>来源：IT之家</sub>
 
 ## 🔥 GitHub 今日热门
 
-1. **[elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)** — ⭐ 23,292（今日 +1,652） · Python
+1. **[elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)** — ⭐ 24,544（今日 +1,597） · Python
    A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-repo…
-2. **[obra/superpowers](https://github.com/obra/superpowers)** — ⭐ 326,779（今日 +903） · Shell
+2. **[obra/superpowers](https://github.com/obra/superpowers)** — ⭐ 327,473（今日 +854） · Shell
    An agentic skills framework software development methodology that works.
-3. **[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)** — ⭐ 65,829（今日 +1,106） · Python
+3. **[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)** — ⭐ 66,346（今日 +746） · Python
    "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/
-4. **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** — ⭐ 71,159（今日 +826） · Python
+4. **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** — ⭐ 71,615（今日 +702） · Python
    🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.
-5. **[cursor/plugins](https://github.com/cursor/plugins)** — ⭐ 19,591（今日 +416） · TypeScript
+5. **[cursor/plugins](https://github.com/cursor/plugins)** — ⭐ 19,779（今日 +270） · TypeScript
    Cursor plugin specification and official plugins
-6. **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** — ⭐ 210,235（今日 +1,135） · TypeScript
+6. **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** — ⭐ 210,926（今日 +1,046） · TypeScript
    Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.
-7. **[nginx/nginx](https://github.com/nginx/nginx)** — ⭐ 33,407（今日 +176） · C
+7. **[nginx/nginx](https://github.com/nginx/nginx)** — ⭐ 33,520（今日 +150） · C
    The official NGINX Open Source repository.
-8. **[openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)** — ⭐ 12,691（今日 +191） · C++
+8. **[openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)** — ⭐ 12,815（今日 +176） · C++
    OpenVINO™ is an open source toolkit for optimizing and deploying AI inference
 
 <sub>来源：GitHub Trending</sub>
 
 ---
 
-☀️ 再平淡的日子也藏着希望，保持热忱，用心感受生活里的小美好
+☀️ 守住最初那份初心，扛起自己的责任，踏实走好脚下每一段路途。
 
 ---
 
 ## 📚 历史存档
 
+- [2026-11-27](editions/2026-11-27.md)
 - [2026-11-26](editions/2026-11-26.md)
 - [2026-11-25](editions/2026-11-25.md)
 - [2026-11-24](editions/2026-11-24.md)
